@@ -1,0 +1,66 @@
+.top-order li{
+ float:left;
+ list-style: none;
+}
+hr
+{
+	clear:both;
+	line-height: 11px
+
+}
+
+.top-order img{
+	width:35px;
+	height:35px;
+	margin-left:20px;
+}
+
+
+div#canvas {
+   // border: 1px solid;
+    height: 500px;
+    background:url('../field.png') no-repeat;
+    background-size:contain;
+}
+div#left {
+    border: 1px solid;
+    width: 26%;
+    box-shadow: 4px 4px 13px;
+    margin-right: 1%;
+}
+
+#main{
+	width:85%;
+	margin:0 auto;
+}
+
+div.edit {
+    box-shadow: 5px 5px 15px;
+    padding: 15px;
+    width: 40%;
+    margin-bottom: 3%;
+}
+
+#colors li{
+	float:left;
+	list-style: none;
+	border:1px solid;
+	padding: 15%;
+	margin-left:1px
+	//margin-bottom:1px
+}
+
+#colors
+{
+	
+	padding:2%;
+	padding-bottom:53%;
+}
+
+#canvas
+{
+ height:200px;
+ background:black;
+ border:2px solid;
+
+}
